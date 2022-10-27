@@ -51,7 +51,7 @@ endstep0-->
 <details id=1>
 <summary><h2>Step 1: Add a test workflow</h2></summary>
 
-_Welcome to "GitHub Actions: Continuous Integration"! :wave:_
+*Welcome to "GitHub Actions: Continuous Integration"! :wave:*
 
 **What is _continuous integration_?**: [Continuous integration](https://en.wikipedia.org/wiki/Continuous_integration) can help you stick to your team’s quality standards by running tests and reporting the results on GitHub. CI tools run builds and tests, triggered by commits. The results post back to GitHub in the pull request. The goal is fewer issues in `main` and faster feedback as you work.
 
@@ -59,7 +59,7 @@ _Welcome to "GitHub Actions: Continuous Integration"! :wave:_
 
 - **Workflow**: A workflow is a unit of automation from start to finish, including the definition of what triggers the automation, what environment or other aspects should be taken account during the automation, and what should happen as a result of the trigger.
 - **Job**: A job is a section of the workflow, and is made up of one or more steps. In this section of our workflow, the template defines the steps that make up the `build` job.
-- **Step**: A step represents one _effect_ of the automation. A step could be defined as a GitHub Action, or another unit, like printing something to the console.
+- **Step**: A step represents one *effect* of the automation. A step could be defined as a GitHub Action, or another unit, like printing something to the console.
 - **Action**: An action is a piece of automation written in a way that is compatible with workflows. Actions can be written by GitHub, by the open source community, or you can write them yourself!
 
 To learn more, check out "[Workflow syntax for GitHub Actions](https://docs.github.com/actions/using-workflows/workflow-syntax-for-github-actions)" in the GitHub Docs.
@@ -145,7 +145,7 @@ If the checks don't appear or if the checks are stuck in progress, there's a few
 <details id=3 open>
 <summary><h2>Step 3: Upload test reports</h2></summary>
 
-_The workflow has finished running! :sparkles:_
+*The workflow has finished running! :sparkles:*
 
 So what do we do when we need the work product of one job in another? We can use the built-in [artifact storage](https://docs.github.com/en/actions/advanced-guides/storing-workflow-data-as-artifacts) to save artifacts created from one job to be used in another job within the same workflow.
 
@@ -187,7 +187,7 @@ Similar to the upload action to send artifacts to the storage, you can use anoth
 <details id=4>
 <summary><h2>Step 4: Add branch protections</h2></summary>
 
-_Great job uploading test reports! :partying_face:_
+*Great job uploading test reports! :partying_face:*
 
 Take a look at the merge box, you'll notice you can merge this even though the review process hasn't been met.
 
@@ -202,7 +202,7 @@ Protected branches ensure that collaborators on your repository cannot make irre
 1. Check **Require status checks to pass before merging**.
 1. Check all build and test jobs that you'd like to see in the newly visible gray box.
 1. Click **Create**.
-1. _Once you turn on branch protection, Actions can no longer push directly to `main`. You'll need to open the next step on your own._
+1. *Once you turn on branch protection, Actions can no longer push directly to `main`. You'll need to open the next step on your own.*
 
 <!-- Wait about 20 seconds then refresh this page for the next step. -->
 
@@ -217,7 +217,7 @@ Protected branches ensure that collaborators on your repository cannot make irre
 <details id=5>
 <summary><h2>Step 5: Merge your pull request</h2></summary>
 
-_Almost there! :heart:_
+*Almost there! :heart:*
 
 You can now [merge](https://docs.github.com/en/get-started/quickstart/github-glossary#merge) your pull request!
 
@@ -225,7 +225,7 @@ You can now [merge](https://docs.github.com/en/get-started/quickstart/github-glo
 
 1. Click **Merge pull request**.
 1. Delete the branch `ci` (optional).
-1. _Once you turn on branch protection, Actions can no longer push directly to `main`. You'll need to open the "finish" on your own._
+1. *Once you turn on branch protection, Actions can no longer push directly to `main`. You'll need to open the "finish" on your own.*
 
 <!-- Wait about 20 seconds then refresh this page for the next step. -->
 
@@ -239,7 +239,7 @@ You can now [merge](https://docs.github.com/en/get-started/quickstart/github-glo
 <details id=X>
 <summary><h2>Finish</h2></summary>
 
-_Congratulations friend, you've completed this course!_
+*Congratulations friend, you've completed this course!*
 
 <img src=https://octodex.github.com/images/Fintechtocat.png alt=celebrate width=300 align=right>
 
